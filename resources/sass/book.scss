@@ -1,0 +1,164 @@
+// Variables
+@import 'variables';
+
+@font-face {
+  font-family: FuturaPTBold;
+  src: url('../assets/fonts/FuturaPTBold.otf');
+}
+
+@font-face {
+  font-family: FuturaPTBoldOblique;
+  src: url('../assets/fonts/FuturaPTBoldOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTBook;
+  src: url('../assets/fonts/FuturaPTBook.otf');
+}
+
+@font-face {
+  font-family: FuturaPTBookOblique;
+  src: url('../assets/fonts/FuturaPTBookOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondBold;
+  src: url('../assets/fonts/FuturaPTCondBold.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondBoldOblique;
+  src: url('../assets/fonts/FuturaPTCondBoldOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondBook;
+  src: url('../assets/fonts/FuturaPTCondBook.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondBookOblique;
+  src: url('../assets/fonts/FuturaPTCondBookOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondExtraBold;
+  src: url('../assets/fonts/FuturaPTCondExtraBold.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondExtraBoldOblique;
+  src: url('../assets/fonts/FuturaPTCondExtraBoldOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondMedium;
+  src: url('../assets/fonts/FuturaPTCondMedium.otf');
+}
+
+@font-face {
+  font-family: FuturaPTCondMediumOblique;
+  src: url('../assets/fonts/FuturaPTCondMediumOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTDemi;
+  src: url('../assets/fonts/FuturaPTDemi.otf');
+}
+
+@font-face {
+  font-family: FuturaPTDemiOblique;
+  src: url('../assets/fonts/FuturaPTDemiOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTExtraBold;
+  src: url('../assets/fonts/FuturaPTExtraBold.otf');
+}
+
+@font-face {
+  font-family: FuturaPTExtraBoldOblique;
+  src: url('../assets/fonts/FuturaPTExtraBoldOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTHeavy;
+  src: url('../assets/fonts/FuturaPTHeavy.otf');
+}
+
+@font-face {
+  font-family: FuturaPTHeavyOblique;
+  src: url('../assets/fonts/FuturaPTHeavyOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTLight;
+  src: url('../assets/fonts/FuturaPTLight.otf');
+}
+
+@font-face {
+  font-family: FuturaPTLightOblique;
+  src: url('../assets/fonts/FuturaPTLightOblique.otf');
+}
+
+@font-face {
+  font-family: FuturaPTMedium;
+  src: url('../assets/fonts/FuturaPTMedium.otf');
+}
+
+@font-face {
+  font-family: FuturaPTMediumOblique;
+  src: url('../assets/fonts/FuturaPTMediumOblique.otf');
+}
+
+html, body {
+  background: $book-bg;
+  font-family: FuturaPTBook, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  text-transform: none;
+  color: rgba(8,8,8,.99);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+body .v-application a {
+  color: $color-link;
+}
+
+.v-application.book {
+  background: $book-bg;
+  font-family: FuturaPTBook, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  text-transform: none;
+  color: rgba(8,8,8,.99);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

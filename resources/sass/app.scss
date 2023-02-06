@@ -1,0 +1,38 @@
+// Vuetify
+@import '~vuetify/dist/vuetify.min.css';
+
+// Variables
+@import 'variables';
+
+html, body {
+  height: 100%;
+  font-family: Roboto,sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.rapid-panel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  background-color: $body-bg;
+}
+
+.rapid-search-field {
+  width: 300px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .v-data-table-header-mobile {
+    display: none;
+  }
+}
+
+div[id^=rxp-overlay] {
+  z-index: 1000 !important;
+}
